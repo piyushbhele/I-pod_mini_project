@@ -1,0 +1,34 @@
+/* lock icon in lockscreen */
+.lock-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.3;
+    width: 270px;
+    height: 150px;
+    background-color: white;
+    font-size: 100px;
+}
+
+/* Bottom div  lockscreen */
+.bottom-div-lock {
+    width: 270px;
+    height: 40px;
+    background-color: #E3F2FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.case {
+    height: 500px;
+    width: 300px;
+    border-radius: 40px;
+    background-color: rgb(210, 210, 210);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 20px 3px black;
+    -webkit-box-reflect: below 8px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent), to(rgba(250, 250, 250, 0.1)));
+}
